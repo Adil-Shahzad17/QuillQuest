@@ -9,12 +9,9 @@ QuillQuest is a blogging platform that makes it easy for writers to create, mana
 
 ---
 
-## **Project Access** ✅
+### **Project Access** ✅
 
-</br>
 The Project is **Live** at: **[Quill Quest](https://quill-quest-tau.vercel.app/)**
-
-</br>
 
 ---
 
@@ -35,13 +32,13 @@ The Project is **Live** at: **[Quill Quest](https://quill-quest-tau.vercel.app/)
 
     - Allow users to search and filter content based on post categories.
 
-  - **Load More Content on Button Click:**
+  - **Ifinite Pagination Scroll:**
 
     - Users can manually load additional content by clicking the "Load More" button, ensuring a smooth browsing experience.
 
   - **User Profile Interface:**
 
-    - A user-friendly profile page where users can view and edit their personal information and preferences.
+    - A user profile page where users can view and edit their personal information and preferences.
 
   - **Public User Profiles:**
     - A public-facing profile view, enabling users to visit and explore other users' profiles, similar to platforms like Instagram or Facebook.
@@ -52,7 +49,7 @@ The Project is **Live** at: **[Quill Quest](https://quill-quest-tau.vercel.app/)
 
 ## **Technologies Used** 💻
 
-**1**. **Frontend:**
+**1**. **Frontend:** 🖼️
 
 - React.js + Vite
 - Tailwind CSS
@@ -60,7 +57,7 @@ The Project is **Live** at: **[Quill Quest](https://quill-quest-tau.vercel.app/)
 - Tanstack
 - Shadcn
 
-**2**. **Backend Services:**
+**2**. **Backend Services:** ⚙️
 
 Appwrite (Backend-as-a-Service)
 
@@ -78,7 +75,7 @@ Appwrite (Backend-as-a-Service)
 
 ---
 
-### **Installation**
+### **Installation** 📌
 
 **1**. **Clone the repository:**
 
@@ -87,19 +84,19 @@ git clone https://github.com/Adil-Shahzad17/QuillQuest.git
 cd QuillQuest
 ```
 
-You can visit the **_package.json_** file to view other dependencies used in this project.
-
 ---
 
-**2**. **Install dependencies:**
+**2**. **Install dependencies:** 📥
 
 ```bash
 npm install
 ```
 
+Visit the **_package.json_** file to view other dependencies used in this project.
+
 ---
 
-**3**. **Appwrite Setup:**
+**3**. **Appwrite Setup:** 🧰
 
 - Create a new Appwrite project.
 - Set up Authentication.
@@ -107,7 +104,9 @@ npm install
 
 ---
 
-**4. Create Database with 2 collections and their attributes:**
+**A**. **Create Database:** 🛢️
+
+Create 2 collections with respective attributes:
 
 | POST_COLLECTION | USER_COLLECTION |
 | --------------- | --------------- |
@@ -120,7 +119,9 @@ npm install
 
 ---
 
-**5**. **Create Storage with 2 bucket's to store images:**
+**B**. **Create Storage with 2 bucket's to store images:** 🌆
+
+Create 2 bucket's for storing images:
 
 - POST_BUCKET
 - USER-BUCKET
@@ -129,9 +130,13 @@ Allow jpg, png, JPEG as **Allowed File Extensions** in each bucket settings.
 
 ---
 
-## **Note**: Remember to set **Permission**. Allow **_Role: Any_** to only read, and **_Role: All Users_** to create, read, update, and delete in both **collection** and **bucket** settings.
+### **Note** 🚨📢:
 
-**6**. **Configure Environment Variables:**
+Remember to set **Permission**. Allow **_Role: Any_** to only read, and **_Role: All Users_** to create, read, update, and delete in both **collection** and **bucket** settings.
+
+---
+
+**C**. **Configure Environment Variables:** </>
 
 - Create .env file in root directory:
 
@@ -147,7 +152,7 @@ VITE_APPWRITE_BUCKET_USER = bucket_user_id
 
 ---
 
-**7** **Run the development server:**
+**4**. **Run the development server:** ⚡
 
 After installing all the dependencis succesfully and appwrite's configuration it's time to run the project.
 
@@ -157,7 +162,7 @@ npm run dev
 
 ---
 
-### **Contributing** 🤝
+### **Contributing:** 🤝
 
 Contributions are **welcome!**
 Please follow these steps:
@@ -166,7 +171,7 @@ Please follow these steps:
 - Create your feature branch `git checkout -b feature/AmazingFeature`
 - Commit your changes `git commit -m "Add some AmazingFeature"`
 - Push to the branch `git push origin feature/AmazingFeature`
-- Open a Pull Request
+- Open a Pull Request.
 
 Please adhere to the **code of conduct**.
 
@@ -174,10 +179,8 @@ Please adhere to the **code of conduct**.
 
 ### **Acknowledgements** 🙏
 
+- React community for excellent documentation and support.
 - Appwrite team for amazing BaaS platform.
-
-- TanStack team for creating powerful and efficient tool React Query.
-
-- React community for excellent documentation and support
+- TanStack team for creating powerful tool.
 
 ---
