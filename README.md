@@ -69,7 +69,7 @@ Appwrite (Backend-as-a-Service)
 
 ---
 
-## **Getting Started** 🛠️
+## 🛠️ **Getting Started**
 
 ### Prerequisites
 
@@ -77,7 +77,7 @@ Appwrite (Backend-as-a-Service)
 - Tailwind version 3.4.17
 - Appwrite account (free tier sufficient)
 
-## **Installation** 📌
+## ⚙️ **Installation**
 
 **1**. **Clone the repository:**
 
@@ -113,9 +113,9 @@ Create 2 collections with respective attributes:
 | category        |                 |
 | content         |                 |
 
-**B**. **Create Storage with 2 buckets to store images:** 🌆
+**B**. **Create Storage with 2 bucket's to store images:** 🌆
 
-Create 2 buckets for storing images:
+Create 2 bucket's for storing images:
 
 - POST_BUCKET
 - USER-BUCKET
@@ -124,13 +124,13 @@ Allow JPG, PNG, and JPEG as **Allowed File Extensions** in each bucket settings.
 
 ---
 
-### **Note** 🚨📢:
+### 🚨📢 **Note** :
 
-Remember to set **Permission**. Allow **_Role: Any_** to only read, and **_Role: All Users_** to create, read, update, and delete in each **collection** and **bucket** settings.
+Remember to set **Permission**. Allow **_Role: Any_** to only read, and **_Role: All Users_** to create, read, update, and delete in both **collection** and **bucket** settings.
 
 ---
 
-**C**. **Configure Environment Variables:** </>
+**4**. **Configure Environment Variables:** </>
 
 - Create a .env file in the root directory:
 
@@ -146,9 +146,9 @@ VITE_APPWRITE_BUCKET_USER = bucket_user_id
 
 ---
 
-**4**. **Run the development server:** ⚡
+**5**. **Run the development server:** ⚡
 
-After installing all the dependencies successfully and appwrite's configuration, it's time to run the project.
+After installing all the dependencies successfully and configurations, it's time to run the project.
 
 ```bash
 npm run dev
@@ -156,7 +156,7 @@ npm run dev
 
 ---
 
-### **Contributing:** 🤝
+### 🤝 **Contributing:**
 
 Contributions are **welcome!**
 Please follow these steps:
@@ -171,7 +171,7 @@ Please follow the **code of conduct**.
 
 ---
 
-### **Acknowledgements** 🙏
+### 🙏 **Acknowledgements**
 
 - React community for excellent documentation and support.
 - Appwrite team for the fantastic BaaS platform.
