@@ -9,13 +9,13 @@ QuillQuest is a blogging platform that makes it easy for writers to create, mana
 
 ---
 
-### **Project Access** ✅
+### ✅ **Project Access** 
 
 The Project is **Live** at: **[Quill Quest](https://quill-quest-tau.vercel.app/)**
 
 ---
 
-## **Features** 🚀
+## 🚀 **Features** 
 
 - **Full CRUD Operations:**
 
@@ -26,7 +26,7 @@ The Project is **Live** at: **[Quill Quest](https://quill-quest-tau.vercel.app/)
   - Secure login/signup with Appwrite Auth.
   - Sign in using Email OTP ( One Time Password ).
   - User profile management.
-- ## **Key Features🔑**
+- ## 🔑 **Key Features**
 
   - **Search Functionality with Category Filters:**
 
@@ -49,7 +49,7 @@ The Project is **Live** at: **[Quill Quest](https://quill-quest-tau.vercel.app/)
 
 ---
 
-## **Technologies Used** 💻
+## 💻 **Technologies Used** 
 
 **1**. **Frontend:** 🖼️
 
