@@ -32,7 +32,7 @@ The Project is **Live** at: **[Quill Quest](https://quill-quest-tau.vercel.app/)
 
     - Allow users to search and filter content based on post categories.
 
-  - **Ifinite Pagination Scroll:**
+  - **Infinite Pagination Scroll:**
 
     - Users can manually load additional content by clicking the "Load More" button, ensuring a smooth browsing experience.
 
